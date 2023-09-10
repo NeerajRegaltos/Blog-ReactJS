@@ -38,7 +38,7 @@ const BlogCard = (props) => {
                     className="card-img-top"
                     style={{ width: '29rem', height: "30rem" }}
                     src={props.image}
-                    alt="Card image cap"
+                    alt="Card cap"
                 />
                 <p className="card-text mt-2">{props.description}</p>
             </div>
